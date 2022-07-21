@@ -1,0 +1,1 @@
+select productid, count(productid) from product group by productid;

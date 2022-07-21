@@ -1,0 +1,1 @@
+select * from productcosthistory where lastmodified = '2003-06-17';

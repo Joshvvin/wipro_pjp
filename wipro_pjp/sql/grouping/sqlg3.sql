@@ -1,0 +1,1 @@
+select salesorderid, sum(linetotal) from salesorderdetail where sum(linetotal) >= 1000 group by salesorderid; 

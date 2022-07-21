@@ -1,0 +1,1 @@
+select businessentityid, loginid, title from employee where title = "research" OR "development engineer";

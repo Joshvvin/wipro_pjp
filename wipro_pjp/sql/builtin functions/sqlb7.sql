@@ -1,0 +1,1 @@
+select salesorderid, round(subtotal,2) from salesorderheader;

@@ -1,0 +1,1 @@
+select productid, replace(color,'NULL','NO color'), name from product;

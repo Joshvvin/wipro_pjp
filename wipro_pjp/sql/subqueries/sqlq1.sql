@@ -1,0 +1,1 @@
+select s.customerid, s.salesorderid, s.orderdate from salesorderheader s where s.customerid in (select c.customerid from customer c where count(customerid) >= 5);

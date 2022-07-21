@@ -1,0 +1,1 @@
+select * from productcosthistory where lastmodified = '2003-06-17' AND title != 'research' AND title !='development engineer';

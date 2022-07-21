@@ -1,0 +1,1 @@
+select salesorderid, orderdate, year(orderdate), month(orderdate) from salesorderheader;

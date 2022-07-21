@@ -1,0 +1,1 @@
+select businessentityid,firstname,middlename,lastname from person where middlename like '%E%' or middlename like '%B%';

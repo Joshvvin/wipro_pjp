@@ -1,0 +1,1 @@
+select DATEDIFF(shipdate,orderdate), salesorderid, orderdate, shipdate from salesorderheader;

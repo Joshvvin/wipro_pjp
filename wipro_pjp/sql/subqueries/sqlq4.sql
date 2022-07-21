@@ -1,0 +1,1 @@
+select distinct(p.color) from product where p.color not in (select pc.color from productcolor pc);

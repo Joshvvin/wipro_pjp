@@ -1,0 +1,1 @@
+select p.productid, p.productname, from product p where p.productid in (select s.productid from salesorderheader s);
